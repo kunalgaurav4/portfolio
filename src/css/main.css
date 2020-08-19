@@ -192,7 +192,7 @@ p {
   margin-top: 2rem;
   width: 15rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .social-link {
   font-size: 1.75rem;

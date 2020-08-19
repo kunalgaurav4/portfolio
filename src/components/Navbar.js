@@ -8,7 +8,9 @@ const Navbar = () => {
       <div className="nav-center">
         <div className="nav-header">
           <img width="12%" src={logo} alt="kunal" />
-          <button type="button" className="toggle-btn"></button>
+          <button type="button" className="toggle-btn">
+            <FaAlignRight></FaAlignRight>
+          </button>
         </div>
         <PageLinks styleClass="nav-links"></PageLinks>
       </div>
