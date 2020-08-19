@@ -22,7 +22,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
-        path: `${__dirname}/bsrc/assets/`,
+        path: `${__dirname}/src/assets/`,
       },
     },
     {

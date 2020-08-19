@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../assets/logo.svg"
+import logo from "../assets/favicon.png"
 import { FaAlignRight } from "react-icons/fa"
 import PageLinks from "../constants/links"
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <img src={logo} alt="kunal" />
+          <img width="12%" src={logo} alt="kunal" />
           <button type="button" className="toggle-btn"></button>
         </div>
         <PageLinks styleClass="nav-links"></PageLinks>
