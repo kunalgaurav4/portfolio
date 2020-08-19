@@ -190,9 +190,9 @@ p {
 /* social links */
 .social-links {
   margin-top: 2rem;
-  width: 15rem;
+  width: 10rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .social-link {
   font-size: 1.75rem;
@@ -429,6 +429,7 @@ Hero
 }
 .hero-img {
   display: none;
+  margin-left: 5rem;
 }
 .hero-info h4 {
   color: var(--clr-grey-5);

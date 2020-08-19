@@ -1,22 +1,25 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import android from "../assets/icons8-android-os.svg"
+import web from "../assets/icons8-web-64.png"
+import design from "../assets/icons8-design-48.png"
+
 export default [
   {
     id: 1,
-    icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icon: <img src={web} alt="web" />,
+    title: "Web Development",
+    text: `Designing websites with a business minded approach and programming in front-end. Additional experience in SEO ,working directly with clients to build lasting online identities.`,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "web design",
+    icon: <img src={design} alt="design" />,
+    title: "UI/UX ",
     text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
-    title: "app design",
+    icon: <img src={android} alt="android" />,
+    title: "App Development",
     text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
   },
 ]
