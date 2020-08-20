@@ -281,6 +281,10 @@ Navbar
     background: transparent;
   }
 }
+
+span {
+  color: var(--clr-primary-5);
+}
 /*
 =============== 
 Sidebar
@@ -429,7 +433,14 @@ Hero
 }
 .hero-img {
   display: none;
-  margin-left: 5rem;
+  margin-left: 7rem;
+  width: 80%;
+
+  border-width: 40px;
+  border-style: outset;
+  border-color: var(--clr-primary-5);
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
@@ -523,7 +534,7 @@ Services
 @media screen and (min-width: 676px) {
   .services-center {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     -webkit-column-gap: 2rem;
     -moz-column-gap: 2rem;
     column-gap: 2rem;
@@ -574,6 +585,7 @@ Jobs
 }
 .job-info {
   /* min-height: 420px; */
+  color: red;
 }
 .job-info h3 {
   font-weight: 400;
