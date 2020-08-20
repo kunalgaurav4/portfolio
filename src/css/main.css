@@ -1053,3 +1053,31 @@ Blog Template
   height: 15rem;
   margin: 3rem 0;
 }
+
+/* Skill */
+.skill {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 10px auto;
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 75px;
+  transition: 1s box-shadow;
+}
+
+.skill:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 35px 0px var(--clr-primary-2);
+  background: var(--clr-primary-9);
+}
+
+h4 {
+  text-align: center;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
