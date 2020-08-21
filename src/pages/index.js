@@ -19,7 +19,7 @@ export default ({ data }) => {
       <Stack></Stack>
       <Projects
         projects={projects}
-        title="Fearured Projects"
+        title="Featured Projects"
         showLink
       ></Projects>
     </Layout>
