@@ -432,11 +432,11 @@ Hero
   background: var(--clr-primary-10);
 }
 .hero-img {
-  display: none;
-  margin-left: 7rem;
-  width: 80%;
+  display: inline-block;
+  margin-left: 15%;
+  width: 70%;
 
-  border-width: 40px;
+  border-width: 20px;
   border-style: outset;
   border-color: var(--clr-primary-5);
   -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
@@ -477,6 +477,9 @@ Hero
     display: block;
     grid-row: 1/1;
     grid-column: 6/-1;
+    margin-left: 7rem;
+    width: 80%;
+    border-width: 40px;
   }
 }
 @media screen and (min-width: 1170px) {
