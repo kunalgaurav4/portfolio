@@ -32,7 +32,7 @@ module.exports = {
       options: {
         apiURL: process.env.DEPLOY_URL
           ? "https://kunalgaurav-portfolio.herokuapp.com"
-          : `http://localhost:1337`,
+          : "http://localhost:1337",
         queryLimit: 1000, // Default to 100
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
