@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `https://kunalgaurav-portfolio.herokuapp.com/admin/`,
+        apiURL: `https://kunalgaurav-portfolio.herokuapp.com/`,
         queryLimit: 1000, // Default to 100
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
