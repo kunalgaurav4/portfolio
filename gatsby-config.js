@@ -13,7 +13,6 @@ module.exports = {
     image: "./src/assets/card.png",
     siteUrl: "https://kunalgaurav.netlify.app",
     favicon: "./src/assets/favicon.png",
-    linkedinUsername: "@kunalgaurav4",
   },
   plugins: [
     `gatsby-transformer-sharp`,
