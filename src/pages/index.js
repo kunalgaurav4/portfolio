@@ -7,6 +7,7 @@ import Jobs from "../components/Jobs"
 import Projects from "../components/Projects"
 import Blogs from "../components/Blogs"
 import Stack from "../components/Stack"
+import SEO from "../components/SEO"
 export default ({ data }) => {
   const {
     allStrapiProjects: { nodes: projects },
@@ -14,6 +15,10 @@ export default ({ data }) => {
   } = data
   return (
     <Layout>
+      <SEO
+        title=" Home "
+        description="Kunal Gaurav a Computer Science Engineer from VelTech "
+      ></SEO>
       <Hero></Hero>
       <Services></Services>
       <Jobs></Jobs>
