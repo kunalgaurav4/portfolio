@@ -13,7 +13,6 @@ const query = graphql`
         twitterUsername
         favicon
         image
-        linkedinUsername
       }
     }
   }
@@ -27,7 +26,7 @@ const SEO = ({ title, description }) => {
     siteUrl,
     image,
     twitterUsername,
-    linkedinUsername,
+
     favicon,
   } = site.siteMetadata
 
