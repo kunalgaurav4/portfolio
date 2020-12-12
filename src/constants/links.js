@@ -19,7 +19,7 @@ const data = [
   {
     id: 4,
     text: "blog",
-    url: "https://kunalgaurav.hashnode.dev/",
+    url: "/blogs/",
   },
   {
     id: 5,
